@@ -1,0 +1,18 @@
+body {
+  background-color: green
+  border: solid
+}
+
+p,
+h1 {
+ color: red
+ text-align: center
+ font-weight: bold
+ font-size: 16px
+ 
+}
+
+img {
+  width: 50%px
+  height: 150px
+}
