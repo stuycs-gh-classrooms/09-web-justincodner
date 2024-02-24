@@ -8,7 +8,7 @@ body {
 .crumb {
   width: 80px;
   display: block;
-  padding: 8px;
+  padding: 4px;
   border-style: solid;
   border-color: red;
 }
