@@ -6,6 +6,7 @@ body {
   background-color: antiquewhite;
 }
 .crumb {
+  width: 80px;
   display: block;
   padding: 8px;
   border-style: solid;
