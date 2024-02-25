@@ -23,3 +23,7 @@ p {
 img {
   float: right;
 }
+
+.container {
+  align-items: center;
+}
