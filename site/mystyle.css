@@ -26,6 +26,6 @@ img {
 }
 
 .container {
-  display: grid;
+  display: inline;
   align-items: center;
 }
