@@ -8,13 +8,17 @@ body {
   padding: 2px;
   border-style: solid;
   border-color: red;
+}
+
 h1 {
   color: lightgreen;
 }
+
 p {
   float: left;
   font-family: "Times New Roman", Times, serif;
 }
+
 img {
   float: right;
 }
