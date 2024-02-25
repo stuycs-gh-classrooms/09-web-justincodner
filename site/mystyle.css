@@ -17,6 +17,7 @@ h1 {
 p {
   float: left;
   font-family: "Times New Roman", Times, serif;
+  width: 400px;
 }
 
 img {
