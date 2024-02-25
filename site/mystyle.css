@@ -17,6 +17,7 @@ h1 {
 p {
   float: left;
   font-family: "Times New Roman", Times, serif;
+  font-size: 2px;
   width: 400px;
 }
 
@@ -25,5 +26,6 @@ img {
 }
 
 .container {
+  display: grid;
   align-items: center;
 }
