@@ -18,14 +18,9 @@ p {
   float: left;
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
-  width: 400px;
+  width: 500px;
 }
 
 img {
   float: right;
-}
-
-.container {
-  display: inline;
-  align-items: center;
 }
