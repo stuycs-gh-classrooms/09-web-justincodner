@@ -18,9 +18,19 @@ p {
   float: left;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  width: 400px;
+  width: 600px;
 }
 
 img {
   float: right;
+  width 600px;
+}
+
+h2 {
+  color: darkgreen;
+  font size: 50px;
+}
+h3 {
+  color: darkgreen;
+  font size: 50px;
 }
