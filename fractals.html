@@ -10,4 +10,30 @@
   <body>
     <h1>Fractal Fun</h1>
     <h2>Justin Codner, Period 9</h2> 
+    <h3>Koch Curve</h3>
+    <p>Basic Koch Curve. koch_curve(leonardo, 4, 20) </p>
+    <img src="">
+    <p>This is a Koch Curve, but an extra recursive step is added to make it a Koch Square. Width and Size also decrease as depth increase to ensure that it stays on the screen. koch_curve_modified(leonardo, 2, 20, 10)</p>
+    <img src="">
+    <pre><code>
+    def koch_curve_modified(t, depth, size, width):    
+    if (depth == 1):
+        t.width(width)
+        t.fd(size)
+    else:
+        koch_curve_modified(t, depth-1, size*.8, width*.8)
+        t.lt(90)
+        koch_curve_modified(t, depth-1, size*.8, width*.8)
+        t.rt(90)
+        koch_curve_modified(t, depth-1, size*.8, width*.8)
+        t.rt(90)
+        koch_curve_modified(t, depth-1, size*.8, width*.8)
+        t.lt(90)
+        koch_curve_modified(t, depth-1, size*.8, width*.8)
+    </code></pre>
+    <hr>
+    <h4>Sierpinski Triangle</h4>
+    <p>Basic Sierpinski Triangle. sierpinski(michael, 5, 200)</p>
+    <img src="">
+
   </body>
