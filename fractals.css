@@ -45,6 +45,6 @@ p {
   max-width: 100%;
 }
 
-pre {
-  
+img {
+  border: 5px solid "lightred";
 }
