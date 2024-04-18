@@ -6,24 +6,45 @@ h1 {
   color: black;
   font-size: 100px;
 }
+
 h2 {
-  color: darkgreen;
-  font-size: 80px;
+  color: black;
+  font-size: 60px;
 }
+
 h3 {
   color: darkgreen;
   font-size: 80px;
 }
+
 h4 {
   color: darkgreen;
   font-size: 80px;
 }
+
 h5 {
   color: darkgreen;
   font-size: 80px;
 }
 
+.block {
+ display: grid;
+ align-items: center;
+ grid-template-columns: repeat(2, 1fr);
+ column-gap: 10px;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  max-width: 100%;
+}
+
+pre {
+  
 }
